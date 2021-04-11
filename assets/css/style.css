@@ -1,3 +1,53 @@
+html,
 body {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: roboto Condensed;
+    font: size 16px;
+    line-height: 1.4;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
 }
+
+.menu {}
+
+.header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 50px;
+    line: height 50px;
+    color: #fff;
+    background-color: cornflowerblue;
+
+}
+
+.Sousheader {}
+
+.footer {
+    height: 50px;
+    line: height 50px;
+    color: #fff;
+    background-color: cornflowerblue;
+
+}
+
+.h2 {}
+
+.bouton1 {
+    right: 0;
+}
+
+.bouton2 {}
+
+.bouton3 {
+    left: 0;
+}
+
+
+
+
+.logo {}
+
+.site-content {}
+
+.titre {}
