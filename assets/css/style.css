@@ -5,19 +5,10 @@ body {
     font-family: roboto Condensed;
     margin: 0;
     padding: 0;
+    height: 1980px;
+    background-color:white;
 
-}
 
-/* TITRE*/
-
-h2 {
-    text-align: center;
-    color:blue;
-    font-size: 24px;
-}
-
-p {
-    text-align:center;
 }
 
 /* container principal  */
@@ -26,70 +17,166 @@ p {
     display: flex;
     flex-direction: column;
     width: 100%;
+   
 
 }
+
+/* TITRE */
+
+.titre {
+    align-items: center;
+    justify-content: center;
+    font-size:  36px;
+    color:  rgb(117, 145, 197);
+}
+
 
 /* HEADER */
 
 
 .header {
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 70px;
-    background-color: cornflowerblue;
-}
+    font-size: 24px;
+    color: rgb(117, 145, 197);
+    background-color: #80DCED;
+	position: relative;
+	box-shadow: 5px -5px 5px 0px #7CACEA;
 
-.prenom {    
-    background-color:rgb(24, 116, 24);
-}
-
-.profession {
-    background-color:rgb(116, 18, 18);
 }
 
 /* MAIN */
 
 .block1 {
-    /* display: flex; */
+    display: flex;
     width: 100%;
-    height: 300px;
-    background-image: url(assets/css/img/background.jpeg)
-}
-
-.ssblock1 {
-    width: 33%;
+    height: 500px;
+    background:url(../img/background.jpeg);
+    background-size: cover;
     
 }
 
+
+.ssblock1 {
+    display: flex;
+    flex-direction: space-between;
+    width: 33%;
+    height: 500px;
+}
+
+/* LOGO SSBOCK1 */
+
+.divAdresse {
+    display: flex;
+    align-items: flex-start;
+}
+
+.divTelephone {
+    display: flex;
+    align-items:center;
+}
+
+.divEmail {
+    display: flex;
+    align-items:flex-end
+}
+
+.logoAdresse {
+    width: 50%;
+    height: 80px;
+}
+
+.logoTelephone {
+    width: 50%;
+    height: 80px;
+}
+
+.logoEmail {
+    width: 50%;
+    height: 80px;
+}
+
+
+
+.ssblock2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 500px;
+
+}
+
+/* LOGO DU SSBOCK2*/
+
+.logo {
+    width:100%;
+    height: 350px;
+}
+
+/* CONTENU */
+
+.ssblock3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 500px;
+    font-size :32px;
+    color: rgb(117, 145, 197);
+}
+
 .block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 300px;
+    height: 500px;
 }
 
 .block3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 300px;
+    height: 500px;
 }
 
 .block4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 300px;
+    height: 500px;
 }
 
 .block5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 300px;
+    height: 500px;
 }
 
 /* FOOTER */
 
 .block6 {
     display: flex;
-    width: 100%;
-    height: 70px;
     align-items: center;
     justify-content: space-between;
-    background-color: cornflowerblue;
+    width: 100%;
+    height: 70px;
+    font-size: 24px;
+    color: rgb(117, 145, 197);
+    background-color: #80DCED;
+	position: relative;
+	box-shadow: 5px -5px 5px 0px #7CACEA;
